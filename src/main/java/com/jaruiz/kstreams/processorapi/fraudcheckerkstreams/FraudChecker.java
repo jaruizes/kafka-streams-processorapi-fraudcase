@@ -5,7 +5,6 @@ import com.jaruiz.kstreams.processorapi.fraudcheckerkstreams.extractors.Movement
 import com.jaruiz.kstreams.processorapi.fraudcheckerkstreams.model.Fraud;
 import com.jaruiz.kstreams.processorapi.fraudcheckerkstreams.model.Movement;
 import com.jaruiz.kstreams.processorapi.fraudcheckerkstreams.processors.*;
-import com.paradigma.rt.streaming.processorapi.fraudcheckerkstreams.processors.*;
 import com.jaruiz.kstreams.processorapi.fraudcheckerkstreams.serializers.JsonDeserializer;
 import com.jaruiz.kstreams.processorapi.fraudcheckerkstreams.serializers.JsonSerializer;
 import org.apache.kafka.common.serialization.Serde;

@@ -1,6 +1,5 @@
 package com.jaruiz.kstreams.processorapi.fraudcheckerkstreams.config;
 
-import lombok.Getter;
 import org.apache.kafka.common.serialization.Serdes;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

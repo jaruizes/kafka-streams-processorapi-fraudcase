@@ -1,8 +1,8 @@
 package com.jaruiz.kstreams.processorapi.fraudcheckerkstreams;
 
-import com.jaruiz.kstreams.processorapi.fraudcheckerkstreams.serializers.JsonDeserializer;
 import com.jaruiz.kstreams.processorapi.fraudcheckerkstreams.model.Fraud;
 import com.jaruiz.kstreams.processorapi.fraudcheckerkstreams.model.Movement;
+import com.jaruiz.kstreams.processorapi.fraudcheckerkstreams.serializers.JsonDeserializer;
 import com.jaruiz.kstreams.processorapi.fraudcheckerkstreams.serializers.JsonSerializer;
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
